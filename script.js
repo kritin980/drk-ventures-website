@@ -206,12 +206,12 @@ contactForm.addEventListener('submit', (e) => {
   };
 
   // Build a mailto link as a fallback delivery method.
-  // Replace info@drkventures.qa with the real business email.
+  // Use the primary business email for the contact form.
   const subject = encodeURIComponent(`Staffing Request from ${data.name}`);
   const body = encodeURIComponent(
     `Name: ${data.name}\nCompany: ${data.company || 'N/A'}\nEmail: ${data.email}\nPhone: ${data.phone}\n\nMessage:\n${data.message}`
   );
-  window.location.href = `mailto:info@drkventures.qa?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:drkvensol026@gmail.com?subject=${subject}&body=${body}`;
 
   contactForm.reset();
   formSuccess.classList.add('show');

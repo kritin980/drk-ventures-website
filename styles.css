@@ -2,15 +2,15 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary: #0d3b4f;       /* deep teal-navy */
-  --primary-light: #155a73;
-  --accent: #d4a017;        /* warm gold */
-  --accent-dark: #b8860b;
+  --primary: #0b2a4a;       /* logo navy-blue */
+  --primary-light: #1f5f9b;
+  --accent: #1f7a3a;        /* logo green */
+  --accent-dark: #17612e;
   --bg: #ffffff;
-  --bg-alt: #f7f9fa;
+  --bg-alt: #f3f8f5;
   --text: #2a2f36;          /* charcoal */
   --text-light: #5a6470;
-  --border: #e4e9ed;
+  --border: #dbe5ea;
   --radius: 10px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
   --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
@@ -75,11 +75,8 @@ img { max-width: 100%; display: block; }
 #header.scrolled { box-shadow: var(--shadow-sm); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 
-.logo { display: flex; align-items: center; gap: 10px; font-family: var(--font-head); font-weight: 700; }
-.logo-mark {
-  background: var(--primary); color: #fff; padding: 5px 10px; border-radius: 8px;
-  font-size: 16px; font-weight: 800; letter-spacing: 0.5px;
-}
+.logo { display: flex; align-items: center; font-family: var(--font-head); font-weight: 700; }
+.site-logo { width: 178px; height: 58px; object-fit: contain; object-position: center; }
 .logo-text { font-size: 18px; color: var(--text); }
 
 .nav-desktop { display: flex; gap: 32px; }
@@ -193,6 +190,7 @@ html[dir="rtl"] .cred-value { text-align: left; }
   font-size: 16px; font-weight: 500; padding: 10px 0;
 }
 .contact-method svg { color: var(--primary); flex-shrink: 0; }
+.contact-flag, .contact-emoji { width: 24px; min-width: 24px; text-align: center; font-size: 20px; }
 .whatsapp-btn {
   background: #25d366; color: #fff; padding: 14px 20px; border-radius: var(--radius);
   font-weight: 600; transition: background 0.2s; align-self: flex-start;
@@ -226,7 +224,7 @@ html[dir="rtl"] .cred-value { text-align: left; }
 .footer { background: var(--primary); color: #c5d3da; padding: 50px 0 0; }
 .footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; padding-bottom: 40px; }
 .footer .logo-text { color: #fff; }
-.footer .logo-mark { background: var(--accent); }
+.footer .site-logo { width: 178px; height: 58px; }
 .footer-tagline { margin-top: 12px; font-size: 14px; max-width: 300px; }
 .footer h5 { color: #fff; font-size: 16px; margin-bottom: 14px; }
 .footer-links a, .footer-credentials p { display: block; color: #c5d3da; font-size: 14px; margin-bottom: 8px; transition: color 0.2s; }
