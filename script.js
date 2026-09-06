@@ -2,7 +2,7 @@
 const translations = {
   en: {
     logo_text: "DRK Ventures",
-    nav_home: "Home", nav_about: "About Us", nav_services: "Our Services",
+    nav_home: "Home", nav_about: "About Us", nav_services: "Our Services", nav_scope: "Service Scope",
     nav_why: "Why Choose Us", nav_contact: "Contact", nav_cta: "Contact Us",
     hero_title: "Reliable Manpower Solutions for Your Business in Qatar",
     hero_subtitle: "DRK Ventures Trading and Services W.L.L. connects Qatari businesses with skilled, reliable staff across a wide range of roles.",
@@ -23,6 +23,7 @@ const translations = {
     service_drivers_title: "Drivers", service_drivers_desc: "Licensed drivers for personal and commercial use.",
     service_custom_title: "Need Something Else?", service_custom_desc: "We can source staff for a wide range of positions — just ask.",
     service_custom_link: "Contact us →",
+    scope_tag: "Service Scope", scope_title: "Services Outside Our Scope", scope_desc: "Our general cleaning activity does not cover specialized cleaning services such as chimney, furnace, boiler, ventilation duct, or exhaust-system cleaning.",
     why_tag: "Why Choose Us", why_title: "Why Businesses Trust DRK Ventures",
     why_1_title: "Licensed & Registered", why_1_desc: "A licensed manpower supply company operating under Qatari regulations.",
     why_2_title: "Fast Turnaround", why_2_desc: "Quick response to staffing requests so your operations don't slow down.",
@@ -48,7 +49,7 @@ const translations = {
   ar: {
     logo_text: "DRK فينتشرز",
     nav_home: "الرئيسية", nav_about: "من نحن", nav_services: "خدماتنا",
-    nav_why: "لماذا نحن", nav_contact: "اتصل بنا", nav_cta: "تواصل معنا",
+    nav_why: "لماذا نحن", nav_scope: "نطاق الخدمات", nav_contact: "اتصل بنا", nav_cta: "تواصل معنا",
     hero_title: "حلول القوى العاملة الموثوقة لعملك في قطر",
     hero_subtitle: "تربط شركة DRK Ventures Trading and Services W.L.L. الشركات القطرية بموظفين مهرة وموثوقين في مجموعة واسعة من المجالات.",
     hero_cta_primary: "تواصل معنا", hero_cta_secondary: "عرض خدماتنا",
@@ -68,6 +69,7 @@ const translations = {
     service_drivers_title: "السائقون", service_drivers_desc: "سائقون مرخصون للاستخدام الشخصي والتجاري.",
     service_custom_title: "هل تحتاج شيئاً آخر؟", service_custom_desc: "يمكننا توفير موظفين لمجموعة واسعة من الوظائف — فقط اسأل.",
     service_custom_link: "اتصل بنا ←",
+    scope_tag: "نطاق الخدمات", scope_title: "الخدمات خارج نطاقنا", scope_desc: "نشاطنا في التنظيف العام لا يشمل خدمات التنظيف المتخصصة مثل تنظيف المداخن والأفران والغلايات وقنوات التهوية وأنظمة العادم.",
     why_tag: "لماذا نحن", why_title: "لماذا تثق الشركات بـ DRK Ventures",
     why_1_title: "مرخص ومسجل", why_1_desc: "شركة توريد قوى عاملة مرخصة تعمل بموجب اللوائح القطرية.",
     why_2_title: "استجابة سريعة", why_2_desc: "رد سريع على طلبات التوظيف حتى لا تتباطأ عملياتك.",
@@ -93,7 +95,7 @@ const translations = {
   np: {
     logo_text: "DRK भेन्चर्स",
     nav_home: "गृहपृष्ठ", nav_about: "हाम्रो बारेमा", nav_services: "हाम्रा सेवाहरू",
-    nav_why: "किन हामीलाई रोज्ने", nav_contact: "सम्पर्क", nav_cta: "सम्पर्क गर्नुहोस्",
+    nav_why: "किन हामीलाई रोज्ने", nav_scope: "सेवा दायरा", nav_contact: "सम्पर्क", nav_cta: "सम्पर्क गर्नुहोस्",
     hero_title: "कतारमा तपाईंको व्यवसायको लागि भरपर्दो जनशक्ति समाधान",
     hero_subtitle: "DRK Ventures Trading and Services W.L.L. ले कतारका व्यवसायहरूलाई विभिन्न क्षेत्रमा दक्ष, भरपर्दो कर्मचारीहरूसँग जोड्छ।",
     hero_cta_primary: "सम्पर्क गर्नुहोस्", hero_cta_secondary: "हाम्रा सेवाहरू हेर्नुहोस्",
@@ -113,6 +115,7 @@ const translations = {
     service_drivers_title: "चालकहरू", service_drivers_desc: "व्यक्तिगत र व्यावसायिक प्रयोगका लागि इजाजतप्राप्त चालक।",
     service_custom_title: "अन्य केही चाहियो?", service_custom_desc: "हामी विभिन्न पदहरूका लागि कर्मचारी खोज्न सक्छौं — सोध्नुहोस्।",
     service_custom_link: "सम्पर्क गर्नुहोस् →",
+    scope_tag: "सेवा दायरा", scope_title: "हाम्रो कार्यक्षेत्र बाहिरका सेवाहरू", scope_desc: "हाम्रो सामान्य भवन सफाई गतिविधिमा चिम्नी, फर्नेस, बोयलर, भेन्टिलेसन डक्ट वा एक्जस्ट प्रणाली सफाईजस्ता विशेष सफाई सेवाहरू समावेश हुँदैनन्।",
     why_tag: "किन हामीलाई रोज्ने", why_title: "व्यवसायहरूले DRK Ventures लाई किन भरोसा गर्छन्",
     why_1_title: "इजाजतप्राप्त र दर्ता", why_1_desc: "कतारी नियमन अन्तर्गत संचालित इजाजतप्राप्त जनशक्ति आपूर्ति कम्पनी।",
     why_2_title: "छिटो प्रतिक्रिया", why_2_desc: "कर्मचारी अनुरोधमा छिटो प्रतिक्रिया ताकि तपाईंको सञ्चालन नरोकियोस्।",
@@ -206,7 +209,7 @@ contactForm.addEventListener('submit', (e) => {
   };
 
   // Build a mailto link as a fallback delivery method.
-  // Use the primary business email for the contact form.
+  // Replace info@drkventures.qa with the real business email.
   const subject = encodeURIComponent(`Staffing Request from ${data.name}`);
   const body = encodeURIComponent(
     `Name: ${data.name}\nCompany: ${data.company || 'N/A'}\nEmail: ${data.email}\nPhone: ${data.phone}\n\nMessage:\n${data.message}`
